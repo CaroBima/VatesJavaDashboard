@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.dashboard {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+.card {
+  text-align: center;
+  width: 600px;
+
+  background-color: rgb(169, 207, 246);
+  border-radius: 20px;
+  padding: 10px;
+}
