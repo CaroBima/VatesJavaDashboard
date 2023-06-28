@@ -46,6 +46,7 @@ export const Team2 = () => {
       {respuesta ? (
         <>
           <p><strong>Ciudad: </strong>{respuesta.ciudad}</p>
+          <p><strong>Región: </strong>{respuesta.region}</p>
           <p><strong>País: </strong>{respuesta.país}</p>
           <p><strong>Temperatura: </strong>{respuesta.tempCelsius}°C</p>
           <p><strong>Sensación térmica: </strong>{respuesta.sensacionTermica}</p>
