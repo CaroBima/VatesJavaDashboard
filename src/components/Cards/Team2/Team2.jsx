@@ -50,7 +50,7 @@ export const Team2 = () => {
           <p><strong>País: </strong>{respuesta.country}</p>
           <p><strong>Temperatura: </strong>{respuesta.tempC}°C</p>
           <p><strong>Sensación térmica: </strong>{respuesta.feelsliceC}</p>
-          <p><strong>Humedad: </strong>{respuesta.humidity}</p>
+          <p><strong>Humedad: </strong>{respuesta.humidity} %</p>
           <p><strong>Viento: </strong>{respuesta.windKph} km/h</p>
           <p><strong>Última actualización: </strong>{respuesta.lastUpdated}</p>
         </>
